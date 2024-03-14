@@ -1,9 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "npm run linuxBuild",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "linuxBuild": "bash ./install.sh"
   },
   "dependencies": {
     "next": "latest",
